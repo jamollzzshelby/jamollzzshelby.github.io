@@ -1,0 +1,15 @@
+﻿/* Стили для ссылки-кнопки */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: gray; /* Цвет кнопки */
+    text-decoration: none;
+    border-radius: 5px; /* Закругление углов */
+    font-size: 16px;
+    text-align: center;
+}
+
+    .button:hover {
+        background-color: darkgray; /* Цвет кнопки при наведении */
+    }
