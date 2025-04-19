@@ -1,15 +1,65 @@
-﻿/* Стили для ссылки-кнопки */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: white;
-    background-color: gray; /* Цвет кнопки */
-    text-decoration: none;
-    border-radius: 5px; /* Закругление углов */
-    font-size: 16px;
-    text-align: center;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
-    .button:hover {
-        background-color: darkgray; /* Цвет кнопки при наведении */
-    }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: /* сюда добавь свой цвет */;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    background-color: /* сюда добавь цвет кнопки */;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: gray;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.post-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.footer {
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
