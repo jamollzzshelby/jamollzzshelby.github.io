@@ -39,7 +39,6 @@ img.post-image {
     max-width: 300px; /* или сколько тебе надо */
     height: auto;
     display: block;
-    margin: 0 auto; /* чтобы по центру */
 }
 
 .logo img {
