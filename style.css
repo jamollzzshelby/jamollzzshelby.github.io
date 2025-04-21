@@ -34,6 +34,14 @@ body {
     flex-direction: column;
 }
 
+img.post-image {
+    width: 100%;
+    max-width: 300px; /* или сколько тебе надо */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* чтобы по центру */
+}
+
 .logo img {
     height: 40px;
 }
